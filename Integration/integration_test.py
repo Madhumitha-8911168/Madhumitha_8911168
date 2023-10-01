@@ -5,7 +5,14 @@ def test_integration():
     # Test multiplying the result of adding two numbers with another number
     assert calculator.multiply(calculator.add(2, 3), 4) == 20
 
+def add(num3, num4):
+    return num3 + num4
 
+def subtract(num1, num2):
+    return num1 - num2
+
+def multiply(num1, num2):
+    return num1 * num2
 
 ## Unit testing
 
